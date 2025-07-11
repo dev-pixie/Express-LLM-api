@@ -90,7 +90,7 @@ This project demonstrates a streaming API based in NodeJs for large language mod
 
     The postman collection is at following location:
 
-    <pre> postman/ └── ModelVault API Demo.postman_collection.json </pre>
+    <pre> postman/ModelVault API Demo.postman_collection.json </pre>
 
 ---
 
