@@ -5,7 +5,7 @@ This project demonstrates a streaming API based in NodeJs for large language mod
 
 ## tldr;
 
-- **Huggingface model:** The server returns the response from an actual LLM model (gpt2) locally.
+- **Hugging face model:** The server returns the response from an actual LLM model (gpt2) locally.
 - **Streaming token as json chunks:** The server streams the output tokens as json chunks using the NDJSON format over an HTTP connection.
 - **Queue Management:** The requests are queued using a light-weight javascript based queue so that no request is missed when model is busy or is not ready.
 - **Logging:** All the responses of the LLMs are logged to a jsonl file with timestamp and corresponding prompts.
@@ -80,6 +80,7 @@ This project demonstrates a streaming API based in NodeJs for large language mod
    ```bash
    node cli.test.js "What is an AI model?"
    ```
+   ![streamingresponse](https://github.com/user-attachments/assets/5ce09418-9430-4367-8ad3-88d8f132acfa)
 
    You can see the streaming in action
 
