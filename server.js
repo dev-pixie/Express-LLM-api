@@ -141,6 +141,6 @@ py.stderr.on('data', (data) => {
 });
 
 app.listen(3000, () => {
-  console.log('Server running at http://localhost:3000');
-  console.log('Loading AI model. This may take some time if this is the first time you are running.');
+  console.log('\x1b[34mServer running at http://localhost:3000 \x1b[0m');
+  console.log('\x1b[2mLoading AI model. This may take some time if this is the first time you are running the project.\x1b[0m');
 });
