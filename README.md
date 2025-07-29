@@ -1,5 +1,9 @@
 # Local LLM Streaming API Demo
 
+> ## ⚠️ **NOTE**
+> THIS IS ONLY FOR PORTFOLIO SHOWCASE PURPOSES TO DEMONSTRATE MY ABILITIES ACROSS MULTIPLE LANGUAGES, STACKS, AND TECHNOLOGIES.
+
+
 ## Project Description  
 This project demonstrates a streaming API based in NodeJs for large language models (LLMs) using Hugging Face transformers. It provides a Node.js Express server that receives text prompts, sends them to a Python process running a local model, and streams the generated text output back to clients in real-time. The generated output tokens are streamed in form of chunked json objects in the expected format `{"response": "output chunk 1"}`. The express server also maintains a light-weight queue to handle multiple requests in situations where the model is busy or loading for inference.
 
